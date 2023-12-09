@@ -23,15 +23,9 @@ html{
 .cuerpo{
     text-align: left;
     box-shadow: 0.2rem 0.4rem 1rem rgb(49, 48, 48);
-    /* margin: 0rem; */
-    /* margin: 2rem 2rem; */
-    /* border: 2px red solid; */
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .sec{
-    /* margin: 2rem 2rem; */
     padding: 2rem 2rem;
 }
 
@@ -52,7 +46,6 @@ html{
 
 .sec1{
     line-height: 2.8rem;
-    /* background-color: var(--neutral); */
 }
 
 .sec1 h1{
@@ -106,9 +99,6 @@ html{
     font-size: 1.5rem;
     line-height: 3rem;
     width: 70%;
-    /* border: 2px solid red; */
-    /* padding: 0rem;
-    margin: 0rem; */
 }
 
 @media (min-width:748px) {
@@ -116,7 +106,6 @@ html{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: red solid 2px;
     }
       .cuerpo{
         display: grid;
@@ -135,7 +124,6 @@ html{
 
       .sec1 p{
         font-size: 2rem;
-        /* border: red solid 2px; */
         width: 90%;
         line-height: 4rem;
       }
@@ -144,6 +132,4 @@ html{
         grid-template-columns: 1/2;
         grid-template-rows: 2/3;
       }
-
-      /* .sec */
 }
